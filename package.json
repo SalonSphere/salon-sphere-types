@@ -1,0 +1,14 @@
+{
+  "name": "@edapess/salon-sphere-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "repository": {
+    "url": "git://github.com/edapess/salon-sphere-types.git"
+  },
+  "license": "ISC"
+}
