@@ -23,10 +23,12 @@ var ESalonServiceType;
 var ESalonServiceMessages;
 (function (ESalonServiceMessages) {
     ESalonServiceMessages["SUCCESS"] = "Appointment created";
-    ESalonServiceMessages["NO_APPOINTMENT_WITH_ID"] = "No appointment found with id";
-    ESalonServiceMessages["APPOINTMENT_DELETED"] = "Appointment successfully deleted";
-    ESalonServiceMessages["APPOINTMENT_UPDATED"] = "Appointment successfully updated";
+    ESalonServiceMessages["NO_SERVICE_WITH_ID"] = "No service found with id";
+    ESalonServiceMessages["DELETED"] = "Service successfully deleted";
+    ESalonServiceMessages["UPDATED"] = "Service successfully updated";
 })(ESalonServiceMessages || (exports.ESalonServiceMessages = ESalonServiceMessages = {}));
 var ESalonServiceErrorCodes;
 (function (ESalonServiceErrorCodes) {
+    ESalonServiceErrorCodes[ESalonServiceErrorCodes["SUCCESS"] = 0] = "SUCCESS";
+    ESalonServiceErrorCodes[ESalonServiceErrorCodes["NO_SERVICE_WITH_ID"] = 1] = "NO_SERVICE_WITH_ID";
 })(ESalonServiceErrorCodes || (exports.ESalonServiceErrorCodes = ESalonServiceErrorCodes = {}));

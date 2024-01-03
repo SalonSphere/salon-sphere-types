@@ -19,8 +19,11 @@ export enum ESalonServiceType {
 
 export enum ESalonServiceMessages {
   SUCCESS = "Appointment created",
-  NO_APPOINTMENT_WITH_ID = "No appointment found with id",
-  APPOINTMENT_DELETED = "Appointment successfully deleted",
-  APPOINTMENT_UPDATED = "Appointment successfully updated",
+  NO_SERVICE_WITH_ID = "No service found with id",
+  DELETED = "Service successfully deleted",
+  UPDATED = "Service successfully updated",
 }
-export enum ESalonServiceErrorCodes {}
+export enum ESalonServiceErrorCodes {
+  SUCCESS,
+  NO_SERVICE_WITH_ID,
+}
