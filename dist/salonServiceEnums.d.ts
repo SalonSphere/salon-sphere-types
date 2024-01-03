@@ -10,6 +10,7 @@ export declare enum BeautySalonServices {
     FACIAL = "Facial",
     WAXING = "Waxing"
 }
-export interface lolo {
-    lol: number;
+export declare enum SalonServiceType {
+    MAN = 0,
+    WOMAN = 1
 }

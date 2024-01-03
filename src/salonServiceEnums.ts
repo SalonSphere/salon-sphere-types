@@ -12,6 +12,7 @@ export enum BeautySalonServices {
   WAXING = "Waxing",
 }
 
-export interface lolo {
-  lol: number;
+export enum SalonServiceType {
+  MAN,
+  WOMAN,
 }
