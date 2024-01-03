@@ -1,6 +1,5 @@
 {
   "name": "@salonsphere/salon-sphere-types",
-  "version": "4.2.1",
   "description": "",
   "main": "dist/index.js",
   "types": "",

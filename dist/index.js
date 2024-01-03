@@ -18,3 +18,5 @@ __exportStar(require("./salonServiceTypes"), exports);
 __exportStar(require("./appointmentsTypes"), exports);
 __exportStar(require("./authTypes"), exports);
 __exportStar(require("./dataRelatedTypes"), exports);
+__exportStar(require("./salonTypes"), exports);
+__exportStar(require("./userTypes"), exports);
