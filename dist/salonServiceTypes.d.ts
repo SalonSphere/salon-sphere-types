@@ -15,12 +15,20 @@ export declare enum ESalonServiceType {
     WOMAN = 1
 }
 export declare enum ESalonServiceMessages {
-    SUCCESS = "Appointment created",
+    SUCCESS = "Service created",
     NO_SERVICE_WITH_ID = "No service found with id",
+    NO_SERVICES = "No services found",
     DELETED = "Service successfully deleted",
-    UPDATED = "Service successfully updated"
+    UPDATED = "Service successfully updated",
+    FOUND = "Sercvice found",
+    FOUND_MULTIPLE = "Services found"
 }
 export declare enum ESalonServiceErrorCodes {
     SUCCESS = 0,
-    NO_SERVICE_WITH_ID = 1
+    NO_SERVICE_WITH_ID = 1,
+    NO_SERVICES = 2,
+    DELETED = 3,
+    UPDATED = 4,
+    FOUND = 5,
+    FOUND_MULTIPLE = 6
 }
