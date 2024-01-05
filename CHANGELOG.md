@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/SalonSphere/salon-sphere-types/compare/v0.0.6...v0.0.7) (2024-01-05)
+
+
+### Bug Fixes
+
+* versioning ([33c4aff](https://github.com/SalonSphere/salon-sphere-types/commit/33c4affea620cc876f6934d10242466a70017e75))
+
 ### [0.0.6](https://github.com/SalonSphere/salon-sphere-types/compare/v0.0.5...v0.0.6) (2024-01-04)
 
 ### [0.0.5](https://github.com/SalonSphere/salon-sphere-types/compare/v0.0.4...v0.0.5) (2024-01-04)
